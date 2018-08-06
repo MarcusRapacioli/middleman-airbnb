@@ -54,14 +54,14 @@
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: $pink !important;
+  color: $steel-grey !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
 }
 .navbar-wagon-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: $off-white !important;
+  color: $pink !important;
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
@@ -74,4 +74,8 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.menu-pink
+{color: $pink;
 }

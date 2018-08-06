@@ -14,3 +14,20 @@
   color: white;
   border: none
 }
+.btn-team {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: $pink;
+  transition: background 0.3s ease;
+  border: none
+}
+.btn-team:hover {
+  opacity: 1;
+  background: $pink;
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+  border: none
+}
